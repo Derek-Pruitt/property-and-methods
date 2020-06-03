@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Properties and Methods</title>
+</head>
+<body>
+    <p>This creates a h4 element with text</p>
+
+    <button onclick="CE()">Push me</button>
+
+    <script>
+        function CE() {
+            var h = document.createElement('H4');
+            var t = document.createTextNode('Hello there!');
+            h.appendChild(t);
+            document.body.appendChild(h);
+        }
+        document.write('I really enjoy coding');
+    </script>
+    
+</body>
+</html>
